@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<data>
+		<variable
+			name="photoUrl"
+			type="String" />
+	</data>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/black">
+
+		<com.github.chrisbanes.photoview.PhotoView android:id="@+id/ivDialogFullScreen"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:adjustViewBounds="true"
+			android:scaleType="centerInside"
+
+			app:bindImageUrl="@{photoUrl}"
+			app:progressBar="@{pbImageLoading}"
+
+			/>
+
+		<ProgressBar android:id="@+id/pbImageLoading"
+			android:layout_width="150dp"
+			android:layout_height="150dp"
+			android:layout_gravity="center"
+			android:indeterminate="false"
+			android:minHeight="32dp"
+			android:minWidth="32dp"
+			android:max="100"
+			android:progressDrawable="@drawable/progress_drawable"
+
+			style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+			/>
+
+	</FrameLayout>
+</layout>

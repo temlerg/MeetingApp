@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/flowNavigation"
+	app:startDestination="@id/splashFragment"
+	>
+
+	<action android:id="@+id/action_global_authFragment"
+		app:destination="@id/authLandingFragment"/>
+
+	<action android:id="@+id/action_global_mainFlowFragment"
+		app:destination="@id/mainFlowFragment"/>
+	
+	<action android:id="@+id/action_global_registrationFragment"
+		app:destination="@id/registrationFlowFragment" />
+	
+	
+	<fragment android:id="@+id/authLandingFragment"
+		android:name="com.dev.meeting.ui.auth.AuthLandingFragment"
+		android:label="AuthLandingFragment"
+		tools:layout="@layout/fragment_auth_landing" />
+	
+	<fragment android:id="@+id/mainFlowFragment"
+		android:name="com.dev.meeting.ui.main.MainFlowFragment"
+		android:label="MainFlowFragment"
+		tools:layout="@layout/fragment_main_flow"
+		/>
+	
+	<fragment android:id="@+id/splashFragment"
+		android:name="com.dev.meeting.ui.SplashFragment"
+		android:label="SplashFragment"
+		tools:layout="@layout/fragment_splash"
+		/>
+	
+	
+	<fragment android:id="@+id/registrationFlowFragment"
+		android:name="com.dev.meeting.ui.registration.RegistrationFragment"
+		tools:layout="@layout/fragment_registration" />
+
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+	
+	<style name="MyAppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+		<item name="cornerSize">8dp</item>
+	</style>
+	
+	<style name="MyAppShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+		<item name="cornerSize">8dp</item>
+	</style>
+	
+	<style name="MyAppShapeAppearance.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+		<item name="cornerSize">8dp</item>
+	</style>
+	
+	<style name="MyAppShapeAppearanceOverlay.Circle" parent="">
+		<item name="cornerFamily">rounded</item>
+		<item name="cornerSize">50%</item>
+	</style>
+
+</resources>

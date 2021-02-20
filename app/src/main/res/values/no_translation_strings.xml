@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+	
+	<!--General-->
+	<string name="app_logo" translatable="false">App Logo</string>
+	<string name="app_name" translatable="false">TROLD</string>
+	<string name="privacy_policy_url" translatable="false">https://roove.flycricket.io/privacy.html</string>
+	
+	<!--Default strings-->
+	<string name="default_name" translatable="false">John Doe</string>
+	<string name="default_city" translatable="false">Anytown</string>
+	<string name="default_message_text" translatable="false">Text another text \n text more text maybe more text \n well</string>
+	
+	<!-- Notifications -->
+	<string name="notification_channel_id_messages" translatable="false">message_notifications</string>
+	<string name="notification_channel_name_messages" translatable="false">Messages</string>
+	<string name="notification_channel_description_messages" translatable="false">Message notification</string>
+	
+	<string name="notification_channel_id_match" translatable="false">match_notifications</string>
+	<string name="notification_channel_name_match" translatable="false">Matches</string>
+	<string name="notification_channel_description_match" translatable="false">Match notification</string>
+	
+	
+	<string name="test_profile_about_text" translatable="false">Besides, she’s a got a kind personality and she smiles a lot. All in all, she is rather attractive. People say the same about me, but I think that she is more beautiful than me.</string>
+
+	<string name="concat" translatable="false">%s %s</string>
+	<string name="name_age_formatter" translatable="false">%s, %d</string>
+
+</resources>
