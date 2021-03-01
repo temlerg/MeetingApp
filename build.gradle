@@ -4,7 +4,7 @@ buildscript {
 
     ext {
         kotlin_version = '1.4.21'
-        majorVersion = 2
+        majorVersion = 1
         minorVersion = 0
         patchVersion = 1
     }
